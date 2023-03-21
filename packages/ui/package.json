@@ -1,0 +1,35 @@
+{
+  "name": "@cloud/ui",
+  "version": "0.0.1",
+  "description": "Cloud UI",
+  "main": "src/index.ts",
+  "private": true,
+  "scripts": {
+    "type-check": "vue-tsc --noEmit",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "dev": "start-storybook -p 6006",
+    "build": "build-storybook"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/builder-vite": "^0.4.2",
+    "@storybook/testing-library": "^0.0.13",
+    "@storybook/vue3": "^6.5.16",
+    "@types/node": "^18.14.2",
+    "eslint": "^8.34.0",
+    "eslint-plugin-storybook": "^0.6.11",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7",
+    "typescript": "^5.0.2",
+    "vue": "^3.2.47",
+    "vue-loader": "^16.8.3",
+    "vue-tsc": "^1.2.0"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.47"
+  }
+}

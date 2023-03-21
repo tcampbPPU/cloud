@@ -1,0 +1,21 @@
+{
+  "name": "cloud",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Tanner Campbell <tcamp022@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "start:docs": "pnpm --filter @cloud/docs dev",
+    "start:www": "pnpm --filter @cloud/www dev",
+    "start:ui": "pnpm --filter @cloud/ui dev"
+  },
+  "packageManager": "pnpm@7.29.1",
+  "engines": {
+    "node": ">=16.0.0",
+    "pnpm": ">=7.0.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.37.0",
+    "eslint": "^8.36.0"
+  }
+}

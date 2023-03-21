@@ -1,0 +1,7 @@
+{
+  "name": "@cloud/app",
+  "version": "0.0.1",
+  "description": "Cloud App",
+  "private": true,
+  "scripts": {}
+}
